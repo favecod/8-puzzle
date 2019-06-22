@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    height: 100vh;
+}
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.blocks span {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 2rem;
+}
